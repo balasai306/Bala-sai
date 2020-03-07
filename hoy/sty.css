@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200,400,700,800&display=swap');
+
+*{
+	padding:0;
+	margin:10px;
+
+}
+body
+{
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 10px;
+	background:#edeef0;
+	border-width:20%;
+	border-color:black;
+}
+nav ul
+{
+	display:flex;
+	justify-content:space;
+	align-items:center;
+	list-style:none;
+	padding:none;
+		
+}
+nav ul li{
+	margin:20px,0;
+	justify-content:space;
+	
+	
+}
+
+.logo
+{
+	font-size:30px;
+	font-weight:700;
+	color:#f05136;	
+}
+.navi
+{
+	font-size:1.8em;
+	text-decoration:none;
+	color:black;
+	cursor:pointer;
+}
+
+.navi:hover{
+	color:#f05136;
+	
+}
+#home{
+	background:black;
+	height:150px;
+	color:white;
+	display:flex;
+	justify-content:center;
+	align-items:center;	
+}
+#portfolio
+{
+	align-items:center;
+	text-align:center;
+    background:black;
+	height:300px;
+	color:white;
+	padding:50px;
+}
+#portfolio div
+{
+	display:flex;
+	justify-content:space;
+	margin:10px;	
+}
+#portfolio h3 p hr
+{
+	margin-bottom:10px;
+} 
+
+#portfolio div article
+{
+	background:white;
+	color:black;
+	height:170px;
+	width:400px;
+	padding:10px;
+	margin:10px;
+	flex-direction:column;
+	align-items:center;
+	justify-content:space-around;
+	border-radius:10px;
+	
+}
+
+#skills
+{
+	align-items:center;
+	text-align:center;
+	height:350px;
+	color:#f05136;
+	padding:10px;
+	
+}
+#skill
+{
+	display:flex;
+justify-content:space-around;
+text-align:left;
+	
+}
+#skills ul
+{
+	list-style:none;
+}
+#skills ul li
+{
+	margin:0;
+}
+#skill div
+{
+	display:flex;
+	align-items:center;
+	flex-direction:column;
+	
+}
+#contact
+{
+	background:black;
+	height:300px;
+	display:flex;
+	align-items:center;
+	flex-direction:column;
+margin:10px,0;	
+}
+#contact h3{ color:white;}
+
+
+
+#bio
+{
+	display:flex;
+	align-items:center;
+	margin:0,30px;
+	height:300px;
+	
+}
+#bio img
+{
+	width:200px;
+	height:150px;
+border-radius:50%;
+margin:100px;
+}
+#bio article
+{margin:30px}
+
+#bio p
+{
+	font-size:10px;	
+}
+.break
+{
+	display:block;
+	margin:10px,0;
+	
+}
+
+header div p
+{
+	font-size:20px;
+	font-weight:200;
+}
+h1 h2 h3 h4
+{
+	font-weight:500;
+	
+}
+h1
+{
+	font-size:20px;
+}
+
+h2
+{
+	font-size:30px;
+}
+
+h3
+{
+	font-size:30px;
+}
+
+h4
+{
+	font-size:20px;
+}
+
+.navib
+{
+	text-decoration:none;
+	text-align:center;
+	background:#f05136;
+	cursor:pointer;
+	font-weight:300;
+	letter-spacing:0.5px;
+	color:white;
+    font-size:1.5em;
+    padding:10px;
+	border-radius:10px;
+}
+.navib:hover{
+	color:#f05136;
+	
+}
+
+
+
+
+
+
+
+
