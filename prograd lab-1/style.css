@@ -1,0 +1,45 @@
+.footer{
+    margin-left : 80px;
+    font-size : 18px;
+  }
+  .gridcontainer
+        {   display:grid;
+            grid-column: 5px;
+            grid-row: 1px;
+            grid-gap: 1em;
+            background-color:thistle;
+            padding: 1em;
+            height: 500px;
+            border-radius:1em ;
+        }
+        .gridcontainer>div
+        {
+            padding:2px;
+            border-radius:1em ;
+        }
+    
+        #box1{
+            grid-column: 1/2;
+            background-color: saddlebrown;
+            text-align: center;
+        }
+    
+        #box2{
+            grid-column: 2/3;
+            background-color: seagreen;
+            text-align: center;
+        }
+        #box3{
+            grid-column: 4/4;
+            text-align: center;
+            background-color: springgreen;
+        }
+        #box4{
+            grid-column: 5/6;
+    
+            background-color:yellow;
+            
+           
+            text-align: center;
+            
+        }
