@@ -1,7 +1,7 @@
 var queen = {
     direction: "s",
     position: {
-        x= 0,
+        x: 0,
         y: 4
     }
 }
@@ -27,7 +27,7 @@ function change_position(direction, steps)
     switch (direction) 
     {
         case "s":
-           abs(queen.position.x) = abs(queen.position.x) + steps;
+           queen.position.x = queen.position.x + steps;
             break;
         case "n":
             queen.position.x = queen.position.x - steps;
